@@ -140,6 +140,7 @@ pool_ids = get_pool_ids()
 
 app = dash.Dash()
 
+server = app.server
 
 app.layout = html.Div([
     # dcc.Dropdown(
